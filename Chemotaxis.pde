@@ -39,7 +39,7 @@ class Chemo
     }
     if (mouseX > myX)
     {
-      myX = myX + (int)(Math.random()*10)-3;
+      myX = myX + (int)(Math.random()*10)-10;
     }
     if (mouseX < myX)
     {
