@@ -37,6 +37,14 @@ class Chemo
     {
       myY = -100;
     }
+    if (mouseX > myX)
+    {
+      myX = myX + (int)(Math.random()*10)-3;
+    }
+    if (mouseX < myX)
+    {
+      myX += (int)(Math.random()*10)-10;
+    }
   }
   void show()
   {
